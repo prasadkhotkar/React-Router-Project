@@ -2,8 +2,8 @@ import React from 'react'
 
 function SignupForm() {
   return (
-    <div>
-      
+    <div >
+           
     </div>
   )
 }
