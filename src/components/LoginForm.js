@@ -19,7 +19,7 @@ function LoginForm() {
                 Email Address<sup>*</sup>
                 </p>
       
-        <input type="text" required placeholder='Enter your email id' value={FormData.email}
+        <input type="email" required placeholder='Enter your email id' value={FormData.email}
         onChange={changeHandeler} name="email"
         />
           </label>
