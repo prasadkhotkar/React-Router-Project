@@ -5,7 +5,7 @@ import toast from 'react-hot-toast';
 import { Link } from 'react-router-dom';
 
 function LoginForm({setIsLoggedIn}) {
-  const navigate=useNavigate;
+  const navigate=useNavigate();
     const[formdata,setFormdata]=useState({
         email:"",password:""
     })
