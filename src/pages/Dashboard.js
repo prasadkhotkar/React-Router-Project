@@ -1,10 +1,8 @@
 import React from 'react'
 
-function Dashboard() {
+const Dashboard = () => {
   return (
-    <div className='flex justify-center items-center'>
-      Welcome to Dashboard
-    </div>
+    <div className='grid place-items-center text-richblack-100 text-3xl h-full'>Dashboard</div>
   )
 }
 

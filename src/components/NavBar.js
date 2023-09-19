@@ -13,7 +13,7 @@ function NavBar(props) {
       </Link>
 
       <nav>
-        <ul className='flex gap-x-6 text-white'>
+        <ul className='flex gap-x-6 text-richblack-100'>
             <li>
             <Link to="/">Home</Link>
             </li>
@@ -33,7 +33,8 @@ function NavBar(props) {
         {
             !isLoggedIn &&
             <Link to="/login">
-            <button className='bg-richblack-800 text-white py-[8px] px-[12px]border border-richblack-700'>
+            <button className='bg-richblack-800 e
+            text-richblack-100 py-[8px] px-[12px] border border-richblack-700'>
                 Login
             </button>
             </Link>
@@ -42,7 +43,7 @@ function NavBar(props) {
          {
             !isLoggedIn &&
             <Link to="/signup">
-             <button className='bg-richblack-800 text-white py-[8px] px-[12px]border border-richblack-700'>
+             <button className='bg-richblack-800 text-richblack-100 py-[8px] px-[12px] border border-richblack-700'>
             Sign Up
                 </button>
             </Link>
@@ -54,7 +55,7 @@ function NavBar(props) {
             {
                 setIsLoggedIn(false);
             toast.success("Logged Out")
-            }} className='bg-richblack-800 text-white py-[8px] px-[12px]border border-richblack-700'>
+            }} className='bg-richblack-800 text-richblack-100 py-[8px] px-[12px] border border-richblack-700'>
                 Log Out
             </button>
             </Link>
@@ -62,7 +63,7 @@ function NavBar(props) {
         {
             isLoggedIn &&
             <Link to="/dashboard">
-            <button className='bg-richblack-800 text-white py-[8px] px-[12px]border border-richblack-700'>
+            <button className='bg-richblack-800 text-richblack-100 py-[8px] px-[12px] border border-richblack-700'>
                 Dashboard
             </button>
             </Link>

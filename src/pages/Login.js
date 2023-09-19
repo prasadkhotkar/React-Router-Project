@@ -5,7 +5,7 @@ function Login({setIsLoggedIn}) {
   return (
     <Template
     title="Welcome Back"
-    des1="Build skills for today,tommarow,beyond."
+    desc1="Build skills for today,tommarow,beyond."
     desc2="Education to future-proof your career."
     image={loginImg}
     formtype="login"
